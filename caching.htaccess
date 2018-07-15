@@ -1,0 +1,6 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+<filesMatch ".(css|jpg}png)$">
+Header set Cache-Control "max-age=590000, public"
+</filesMatch>
+</IfModule>
