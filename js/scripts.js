@@ -73,5 +73,17 @@
     $.magnificPopup.close();
   });
 
-
 })(jQuery); // End of use strict
+
+  // Copy email to clipboard when icon is clicked
+  function copyEmail() {
+    const el = document.createElement('textarea');
+    el.value = 'jnvandermeulen@gmail.com';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+
+    // TODO: make alert message less ugly
+    alert('My email "jnvandermeulen@gmail.com" has been copied to your clipboard!');
+  }
