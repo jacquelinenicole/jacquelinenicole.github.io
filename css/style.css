@@ -476,3 +476,8 @@ width: 350px;
 height: 252.767px;
 
 }
+
+.img-big {
+  height: 600px;
+  width: auto;
+}
