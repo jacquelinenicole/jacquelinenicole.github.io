@@ -1,8 +1,9 @@
 :root {
-    --prim-bg: #ff9999;
+    --prim-bg: #1c1d3b;
     --sec-bg: #000000;
     --accent: #FFFFFF;
-    --hover: rgba(255, 153, 153, 0.9);
+    --hover: rgba(28, 29, 59, 0.9);
+
 }
 
 body {
@@ -17,6 +18,10 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+}
+
+p {
+	text-align:justify
 }
 
 hr.star-light,
@@ -475,9 +480,4 @@ a:focus, a:hover, a:active {
 width: 350px;
 height: 252.767px;
 
-}
-
-.img-big {
-  height: 600px;
-  width: auto;
 }

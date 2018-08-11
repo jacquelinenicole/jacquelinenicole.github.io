@@ -1,0 +1,6 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 10 minutes"
+ExpiresByType image/png "access plus 10 minutes"
+ExpiresByType text/cess "access plus 10 minutes"
+</IfModule>
